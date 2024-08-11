@@ -1,5 +1,5 @@
 # Processing liturgical texts
-A collection of not quite scripts for processing and analysis of liturgical sources.
+A collection of not quite ready scripts for processing and analysis of liturgical sources.
 
 ## docs
 The folder contains:
