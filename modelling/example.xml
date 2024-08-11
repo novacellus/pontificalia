@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <!-- xml:id elementu TEI np. = identyfikator rękopisu w bazie -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- = shelfmark (per CTS Template) -->
+            <title>Ms. 883</title>
+            <!-- = collection 
+               (per CEGMD 1.4.1.1: https://msdesc.github.io/consolidated-tei-schema/msdesc.html#titlestatement) -->
+            <title type="collection">Beinecke Rare Book and Manuscript Library</title>
+            <respStmt xml:id="PF">
+               <resp when="2024">Cataloguer</resp>
+               <persName>Paweł Figurski</persName>
+            </respStmt>
+            <respStmt xml:id="KN">
+               <resp when="2024">Markup and encoding</resp>
+               <persName>Krzysztof Nowak</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <!-- dane projektu -->
+            <edition>Liturgica Poloniae. TEI Edition</edition>
+            <funder>
+               <orgName>
+                  <ref target="https://liturgica-poloniae.ihpan.edu.pl/">Liturgica Poloniae. Katalog polskich rękopisów liturgicznych. Cz. 1: do około 1300 r.</ref>
+               </orgName>
+            </funder>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Liturgica Poloniae Project</publisher>
+            <distributor>
+               <email>pawel.figurski.uw@gmail.com</email>
+            </distributor>
+            <!-- = normalized form of shelfmark (per CTS Template) -->
+            <idno type="msID">Beinecke_MS_883</idno>
+            <!-- = normalized form of collection (per CTS Template) -->
+            <idno type="collection">Beinecke</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p></p>
+         </sourceDesc>
+         <sourceDesc>
+            <msDesc xml:lang="en" xml:id="liturgica_113">
+               <msIdentifier>
+                  <country>United States of America</country>
+                  <settlement>New Haven (CT)</settlement>
+                  <institution>Yale University</institution>
+                  <repository>Beinecke Rare Book and Manuscript Library</repository>
+                  <idno type="shelfmark">Ms. 883</idno>
+                  <altIdentifier type="external">
+                     <idno type="MSPL">EXPL 599</idno>
+                  </altIdentifier>
+                  <altIdentifier type="external">
+                     <idno type="RISM">US-NHub Ms. 883</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Collectarium Landense / Cisterciense; Calendar, Collectar, and Ritual; Cologne
+                  area, Altenberg (?); s. XII 3/4</head>
+               <msContents>
+                  <!--Short overview -->
+                  <summary>Cistercian collectar of the so-called second recension with parts of a
+                     ritual and the calendar with local obituaries; parchment (151 ff.) and paper
+                     (flyleaves and fragment: V ff. + loose paper leaf fragment); 220–226 × 155–162
+                     mm (page size); codex comprised of quaternions (exceptions in the 1. and 9.
+                     quires); 3 sets of foliations from different periods; decorated with numerous
+                     initials (among them 2 silhouette and 2 scrollwork initials); the main text
+                     written in praegothica, mostly in 1 column with 16 lines; music notation (on
+                     ff. 7r, 145r and 146v); early modern binding (brown calfskin over wooden
+                     boards) from Poland (mid 16th c.).</summary>
+                  <textLang mainLang="la">Latin</textLang>
+                  <!-- for alternative encoding of additions see below -->
+                  <msItem xml:id="manuscript_1_front_additions" n="1">
+                     <note type="additions">Additions</note>
+                  </msItem>
+                  <msItem xml:id="manuscript_1_1" n="">
+                     <locus from="1r" to="6r">ff. 1r–6r</locus>
+                     <title type="modern" resp="#PF">Calendar</title>
+                     <!-- alternative: title -->
+                     <note type="grouping">Calendar</note>
+                     <msItem n="1" xml:id="manuscript_1_1_1">
+                        <note>Original layer, includes saints and feasts typical of the Cistercian
+                           calendar, noteworthy</note>
+                        <incipit>Vitalis, Felicule, Zenonis, Com.</incipit>
+                     </msItem>
+                  </msItem>
+                  <msItem xml:id="manuscript_1_10">
+                     <rubric> In sabbato adventus Domini <locus from="7v">(f. 7v)</locus>; </rubric>
+                     <rubric>Dominica <locus from="8r">(f. 8r)</locus>; </rubric>
+                     <rubric>Sabbato ante secundam dominicam <locus from="8v">(f.
+                        8v)</locus>;</rubric>
+                     <rubric> Dominica secunda <locus from="9r">(f. 9r)</locus>; </rubric>
+                     <rubric>Sabbato ante <supplied>III</supplied> dominicam <locus from="9r">(f.
+                           9r)</locus>; </rubric>
+                     <rubric>Dominica III <locus from="9v">(f. 9v)</locus>;</rubric>
+                     <rubric>Feria quarta in ieiunio <locus from="9v">(f. 9v)</locus>;</rubric>
+                     <rubric>Feria VI <locus from="9v">(f. 9v)</locus>;</rubric>
+                     <rubric>Sabbato ante IIII dominicam <locus from="10r">(f.
+                        10r)</locus>;</rubric>
+                     <rubric>Dominica <supplied>IV</supplied>
+                        <locus from="10r">(f. 10r)</locus>;</rubric>
+                     <rubric>Privatis diebus per adventum <locus from="10v">(f.
+                        10v)</locus>;</rubric>
+                     <rubric>In vigilia Natalis <locus from="11v">(f. 11v)</locus>;</rubric>
+                     <rubric>In die Natalis Domini <locus from="12r">(f. 12r)</locus>;</rubric>
+                     <rubric><supplied>A natali Domini usque ad diem Epiphaniae</supplied>
+                        <locus from="13r">(f. 13r)</locus>;</rubric>
+                     <rubric>Per octavas usque ad Circumcisionem <locus from="14r">(f.
+                        14r)</locus>;</rubric>
+                     <rubric>In vigilia Circumcisionis <locus from="14r">(f. 14r)</locus>;</rubric>
+                     <rubric>In die <locus from="14v">(f. 14v)</locus>;</rubric>
+                     <rubric>In vigilia <locus from="14v">(...) Epyphaniae (f.
+                        14v)</locus>;</rubric>
+                     <rubric>In die <locus from="15r">(f. 15r)</locus>;</rubric>
+                     <rubric>Per octavas <locus from="16r">(f. 16r)</locus>;</rubric>
+                     <rubric>Dominica I post natale Domini <locus from="16v">(f.
+                        16v)</locus>;</rubric>
+                     <rubric>Dominica II <locus from="16v">(f. 16v)</locus>;</rubric>
+                     <rubric>Sabbato ante dominicam quae prima sequitur octavas Theophaniae <locus
+                           from="17r">(f. 17r)</locus>;</rubric>
+                     <rubric>Dominica <locus from="17r">(f. 17r)</locus>;</rubric>
+                     <rubric>Per omnes dominicas ab octava Theophaniae usque ad quadragesimam <locus
+                           from="20r">(f. 20r)</locus>;</rubric>
+                     <rubric>Ordo de privatis diebus <locus from="20v">(f. 20v)</locus>;</rubric>
+                     <rubric>Dominica II post octavas Theophaniae <locus from="21v">(f.
+                        21v)</locus>;</rubric>
+                     <rubric>Dominica III <locus from="21v">(f. 21v)</locus>;</rubric>
+                     <rubric>Dominica IV <locus from="22r">(f. 22r)</locus>;</rubric>
+                     <rubric>Dominica in LXX <locus from="22r">(f. 22r)</locus>;</rubric>
+                     <rubric>Dominica in LX <locus from="22r">(f. 22r)</locus>;</rubric>
+                     <rubric>Dominica in L <locus from="22r">(f. 22r)</locus>;</rubric>
+                     <rubric>Feria IIII in capite ieiunii <locus from="22v">(f.
+                        22v)</locus>;</rubric>
+                     <rubric>Benedictio cineris <locus from="23r">(f. 23r)</locus>;</rubric>
+                     <rubric>Feria V <locus from="24v">(f. 24v)</locus>;</rubric>
+                     <rubric>Feria VI <locus from="24v">(f. 24v)</locus>;</rubric>
+                     <rubric>Sabbato <locus from="25r">(f. 25r)</locus>;</rubric>
+                     <rubric>Dominica I in XL <locus from="25r">(f. 25r)</locus>;</rubric>
+                     <rubric>De privatis diebus in XL... Feria secunda <locus from="26r">(f.
+                           26r)</locus>;</rubric>
+                     <rubric>Feria tercia <locus from="27v">(f. 27v)</locus>;</rubric>
+                     <rubric>Feria V <locus from="28r">(f. 28r)</locus>;</rubric>
+                     <rubric>Feria VI <locus from="28v">(f. 28v)</locus>;</rubric>
+                     <rubric>Sabbato <locus from="28v">(f. 28v)</locus>;</rubric>
+                     <rubric>Dominica II in XL <locus from="29r">(f. 29r)</locus>;</rubric>
+                     <rubric>Feria II <locus from="29r">(f. 29r)</locus>;</rubric>
+                     <rubric>Feria III <locus from="29v">(f. 29v)</locus>;</rubric>
+                     <rubric>Feria IIII <locus from="30r">(f. 30r)</locus>;</rubric>
+                     <rubric>Feria quinta <locus from="30r">(f. 30r)</locus>;</rubric>
+                     <rubric>Feria VI <locus from="30v">(f. 30v)</locus>;</rubric>
+                     <rubric>Sabbato <locus from="30v">(f. 30v)</locus>;</rubric>
+                     <rubric>Dominica III in XL <locus from="31r">(f. 31r)</locus>;</rubric>
+                     <rubric>Feria secunda <locus from="31v">(f. 31v)</locus>;</rubric>
+                     <rubric>Feria tercia <locus from="31v">(f. 31v)</locus>;</rubric>
+                     <rubric>Feria IIII <locus from="32r">(f. 32r)</locus>;</rubric>
+                     <rubric>Feria V <locus from="32r">(f. 32r)</locus>;</rubric>
+                     <rubric>Feria VI <locus from="32v">(f. 32v)</locus>;</rubric>
+                     <rubric>Sabbato <locus from="32v">(f. 32v)</locus>;</rubric>
+                     <rubric>Dominica IIII <locus from="33r">(f. 33r)</locus>;</rubric>
+                     <rubric>Feria secunda <locus from="33v">(f. 33v)</locus>;</rubric>
+                     <rubric>Feria III <locus from="33v">(f. 33v)</locus>;</rubric>
+                     <rubric>Feria IIII <locus from="34r">(f. 34r)</locus>;</rubric>
+                     <rubric>Feria quinta <locus from="34r">(f. 34r)</locus>;</rubric>
+                     <rubric>Feria VI <locus from="34v">(f. 34v)</locus>;</rubric>
+                     <rubric>Sabbato <locus from="34v">(f. 34v)</locus>;</rubric>
+                     <rubric>Dominica V <locus from="35r">(f. 35r)</locus>;</rubric>
+                     <rubric>Ordo privatis diebus tenendus usque in vigiliam Paschae <locus
+                           from="36r">(f. 36r)</locus>;</rubric>
+                     <rubric>Feria II <locus from="37r">(f. 37r)</locus>;</rubric>
+                     <rubric>Feria III <locus from="37v">(f. 37v)</locus>;</rubric>
+                     <rubric>Feria IIII <locus from="37v">(f. 37v)</locus>;</rubric>
+                     <rubric>Feria VI <locus from="38r">(f. 38r)</locus>;</rubric>
+                     <rubric>Sabbato <locus from="38v">(f. 38v)</locus>;</rubric>
+                     <rubric>Dominica in palmis <locus from="39r">(f. 39r)</locus>;</rubric>
+                     <rubric>Benedictio super ramos palmarum <locus from="39r">(f.
+                        39r)</locus>;</rubric>
+                     <rubric>Feria II <locus from="41r">(f. 41r)</locus>;</rubric>
+                     <rubric>Feria III <locus from="41v">(f. 41v)</locus>;</rubric>
+                     <rubric>Feria IIII <locus from="41v">(f. 41v)</locus>;</rubric>
+                     <rubric>Feria V in cena Domini et feria VI <locus from="42r">(f.
+                        42r)</locus>;</rubric>
+                     <rubric>In vigilia Paschae <locus from="42v">(f. 42v)</locus>;</rubric>
+                     <rubric>In die sancto Paschae <locus from="43r">(f. 43r)</locus>;</rubric>
+                     <rubric>Per octavas <locus from="43v">(f. 43v)</locus>;</rubric>
+                     <rubric>Feria II <locus from="45r">(f. 45r)</locus>;</rubric>
+                     <rubric>Feria III <locus from="45r">(f. 45r)</locus>;</rubric>
+                     <rubric>Feria IIII <locus from="45v">(f. 45v)</locus>;</rubric>
+                     <rubric>Feria quinta <locus from="45v">(f. 45v)</locus>;</rubric>
+                     <rubric>Feria VI <locus from="45v">(f. 45v)</locus>;</rubric>
+                     <rubric>Sabbato <locus from="46r">(f. 46r)</locus>;</rubric>
+                     <rubric>Dominica in octava <locus from="46r">(f. 46r)</locus>;</rubric>
+                     <rubric>Ordo de privatis diebus ab octava Paschae usque ad Rogationes <locus
+                           from="46v">(f. 46v)</locus>;</rubric>
+                     <rubric>Sabbato post octavas Paschae <locus from="48r">(f.
+                        48r)</locus>;</rubric>
+                     <rubric>Dominica I post octavas Paschae <locus from="48v">(f.
+                        48v)</locus>;</rubric>
+                     <rubric>Sabbato ante secundam dominicam <locus from="49r">(f.
+                        49r)</locus>;</rubric>
+                     <rubric>Dominica II post octavas Paschae <locus from="49v">(f.
+                        49v)</locus>;</rubric>
+                     <rubric>Sabbato ante III dominicam <locus from="50r">(f. 50r)</locus>;</rubric>
+                     <rubric>Dominica III <locus from="50r">(f. 50r)</locus>;</rubric>
+                     <rubric>Sabbato ante quartam dominicam <locus from="50v">(f.
+                        50v)</locus>;</rubric>
+                     <rubric>Dominica IIII <locus from="80v">(f. 80v)</locus>;</rubric>
+                     <rubric>Per tres dies Rogationum <locus from="51r">(f. 51r)</locus>;</rubric>
+                     <rubric>In vigilia Ascensionis <locus from="51v">(f. 51v)</locus>;</rubric>
+                     <rubric>Feria IIII <locus from="52r">(f. 52r)</locus>;</rubric>
+                     <rubric>In die Ascensionis Domini <locus from="52r">(f. 52r)</locus>;</rubric>
+                     <rubric>Dominica infra octavas Ascensionis <locus from="53r">(f.
+                        53r)</locus>;</rubric>
+                     <rubric>Privatis diebus per octavas usque ad Pentecosten <locus from="53v">(f.
+                           53v)</locus>;</rubric>
+                     <rubric>In vigilia Pentecosten <locus from="54r">(f. 54r)</locus>;</rubric>
+                     <rubric>In die sancto Pentecosten <locus from="54r">(f. 54r)</locus>;</rubric>
+                     <rubric>Ordo per octavas <locus from="55r">(f. 55r)</locus>;</rubric>
+                     <rubric>Feria secunda <locus from="56r">(f. 56r)</locus>;</rubric>
+                     <rubric>Feria III <locus from="56r">(f. 56r)</locus>;</rubric>
+                     <rubric>Feria IIII <locus from="56v">(f. 56v)</locus>;</rubric>
+                     <rubric>Feria quinta <locus from="56v">(f. 56v)</locus>;</rubric>
+                     <rubric>Feria VI <locus from="56v">(f. 56v)</locus>;</rubric>
+                     <rubric>Sabbato <locus from="56v">(f. 56v)</locus>;</rubric>
+                     <rubric>Dominica I post Pentecosten <locus from="57r">(f.
+                        57r)</locus>;</rubric>
+                     <rubric>Dominica secunda <locus from="58v">(f. 58v)</locus>;</rubric>
+                     <rubric>Dominica III <locus from="58v">(f. 58v)</locus>;</rubric>
+                     <rubric>Dominica IIII <locus from="59r">(f. 59r)</locus>;</rubric>
+                     <rubric>Dominica V <locus from="59r">(f. 59r)</locus>;</rubric>
+                     <rubric>Dominica VI <locus from="59r">(f. 59r)</locus>;</rubric>
+                     <rubric>Dominica VII <locus from="59v">(f. 59v)</locus>;</rubric>
+                     <rubric>Dominica VIII <locus from="59v">(f. 59v)</locus>;</rubric>
+                     <rubric>Dominica VIIII <locus from="59v">(f. 59v)</locus>;</rubric>
+                     <rubric>Dominica X <locus from="60r">(f. 60r)</locus>;</rubric>
+                     <rubric>Dominica XI <locus from="60r">(f. 60r)</locus>;</rubric>
+                     <rubric>Dominica XII <locus from="60r">(f. 60r)</locus>;</rubric>
+                     <rubric>[Dominica] XIII <locus from="60v">(f. 60v)</locus>;</rubric>
+                     <rubric>[Dominica] XIIII <locus from="60v">(f. 60v)</locus>;</rubric>
+                     <rubric>[Dominica] XV <locus from="60v">(f. 60v)</locus>;</rubric>
+                     <rubric>[Dominica] XVI <locus from="60v">(f. 60v)</locus>;</rubric>
+                     <rubric>[Dominica] XVII <locus from="61r">(f. 61r)</locus>;</rubric>
+                     <rubric>[Dominica] XVIII <locus from="61r">(f. 61r)</locus>;</rubric>
+                     <rubric>[Dominica] XIX <locus from="61r">(f. 61r)</locus>;</rubric>
+                     <rubric>[Dominica] XX <locus from="61r">(f. 61r)</locus>;</rubric>
+                     <rubric>Dominica XXI <locus from="61v">(f. 61v)</locus>;</rubric>
+                     <rubric>[Dominica] XXII <locus from="61v">(f. 61v)</locus>;</rubric>
+                     <rubric>[Dominica] XXIII <locus from="61v">(f. 61v)</locus>;</rubric>
+                     <rubric>[Dominica] XXIIII <locus from="62r">(f. 62r)</locus>;</rubric>
+                     <rubric>[Dominica] XXV <locus from="62r">(f. 62r)</locus></rubric>
+                  </msItem>
+               </msContents>
+
+               <physDesc>
+                  <objectDesc form="codex">
+                     <!-- Important to decide whether it's a composite / multi-part unit: docs at  1.6.7 Multi-part, composite and similar units. -->
+                     <supportDesc material="mixed">
+                        <!-- use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
+                        <support>
+                           <p>
+                              <material>Parchment</material>
+                              <locus from="f1" to="f151">(ff. 1–151)</locus>
+                              <!-- for an alternative approach see docs: extent will not presently accommodate locus. For manuscripts that are not composite, but which nonetheless contain sections (perhaps, but not necessarily a whole quire or quires) with dimensions different to others of the volume, it is not currently possible to provide separate measurements that are distinguished by folio range. These details may be recorded in a note. -->
+                           </p>
+                           <p>
+                              <material>Paper</material> ( <locusGrp>
+                                 <locus from="fI" to="fIV">ff. I–IV,</locus>
+                                 <locus from="154">154</locus>
+                              </locusGrp>; loose paper leaf fragment): </p>
+                        </support>
+                        <extent>
+                           <!-- docs: can be structured with seg @type = leaf | dimensions | object -->
+                           <dimensions unit="mm" type="leaf" xml:id="leaf.1">
+                              <height min="220" max="226">page size: 220–226</height>
+                              <width>155–162 mm</width>
+                           </dimensions>
+                           <dimensions unit="mm" type="leaf" xml:id="leaf.2">
+                              <height min="65" max="70">65–70</height>
+                              <width quantity="155">155 mm</width>
+                           </dimensions>
+                           <note target="#leaf.2">added f. 68</note>
+                           <!-- use additional dimensions elements if necessary -->
+                           <!-- docs: If the present state of the item is different from its
+                              original state, record this information within objectType, using the
+                              following terms: ;  Where necessary (particularly in the case of fragments), further brief description may be provided after the closing objectType tag, using the following terms: -->
+                           <seg type="object"> </seg>
+                        </extent>
+                        <foliation xml:id="modern1" n="1">
+                           <p>The most recent one with Arabic numerals in pencil in the upper right
+                              corner of the recto side on <locus from="f1" to="151">ff. 1–151
+                                 (1–151)</locus>.</p>
+                        </foliation>
+                        <foliation xml:id="modern2">
+                           <p>The older one with Arabic numerals in pencil appears in the upper left
+                              corner of the recto side on <locus from="fII" to="f154">ff.
+                                 II–154</locus> (2–154).</p>
+                        </foliation>
+                        <foliation xml:id="modern3">
+                           <p>The oldest one in ink can be found in the middle of the upper margin
+                              of the recto side on <locus from="f8" to="25">ff. 8–25</locus>
+                              (1–13).</p>
+                        </foliation>
+                        <foliation xml:id="leaves">
+                           <locus from="fI" to="fIV">The front leaves</locus> have Roman numerals in
+                           pen (?) (I–IV), <locus from="f154">the endleaf (f. 154)</locus> has an
+                           Arabic number in pencil (154 – foliation no. 2). The loose paper fragment
+                           has no foliation. </foliation>
+                        <!-- TODO: signatures elements; terminology recommended -->
+                        <collation>
+                           <formula>IV + 14+2 + 2–88 + 98+1 + 10–198 + I (f. 154)</formula>
+                           <list>
+                              <item> quire 1 is a binion with three guards and two singletons (ff.
+                                 5, 6) sewn together with a thin parchment strap and glued to the
+                                 external guard;; </item>
+                              <item> quire 9 is a quaternion with one smaller singleton added (f.
+                                 68). </item>
+                              <item>No quire marks or catchwords. There is also a paper ternion, two
+                                 folios canceled, in front of the codex (ff. I–IV) and a single
+                                 folio at the back (f. 154). The paper folios were added as
+                                 flyleaves in the middle of the 16th c. with the new binding.</item>
+                           </list>
+                        </collation>
+                        <condition>
+                           <!-- TODO: parse in more detail -->
+                           <p><locus from="f1" to="f151"/> color: brownish / yellowish, darkened,
+                              original holes in ff. 22 (stitching holes visible), 25, 32, 80, 126,
+                              130, 135; prepared on both sides </p>
+                           <p>
+                              <locusGrp>
+                                 <locus from="fI" to="fIV"/>
+                                 <locus from="154"/>
+                                 <!-- TODO: parse
+                                 <locus> loose paper leaf fragment</locus> laid paper; added at the
+                                 time of a new binding in mid 16th c.; distance between laid lines:
+                                 28 mm; 9–10 chain lines per 1 cm; watermark (probably a cart wheel)
+                                 present on ff. I, II, IV, 154 
+                                 -->
+                              </locusGrp>
+                           </p>
+                           <seg> Binding and flyleaves: the bookblock is trimmed; the secondary
+                              binding is very damaged – lack of the previously existing furnishings
+                              and fastenings; darkened and dried leather on the covers with many
+                              abrasions and losses, particularly large in the spine area; blind
+                              tooling is flattened and obliterated; partly damaged endbands; minor
+                              losses of the wooden covers with characteristic small holes made by
+                              invertebrates; also paper flyleaves and adjacent parts of the
+                              bookblock expose extensive, characteristic losses caused by
+                              invertebrates; the join of the bookblock and the back cover is partly
+                              damaged; back papers are in a state of destruction: darkened, stained,
+                              weakened with extensive losses and two completely separated fragments;
+                              front flyleaves expose damages mostly of the upper margin. Front
+                              pastedown is stained, with significant losses along the edges and
+                              breakups within the whole area. The condition of the black inks of the
+                              scripts on the front papers show the ink corrosion process, especially
+                              on ff. I and II. Parchment: most parchment folios are unevenly
+                              darkened and yellowed (some brownish), indicating possible process of
+                              collagen degradation. Many folios with visible stains, some clearly
+                              caused by the action of moisture in the past. Surface dirt distributed
+                              mostly on the outer margins and outer bottom corners of the folios.
+                              Considerable losses and cracks of the parchment within the folds and
+                              outer sides of the bookblock, also within the outer bottom corners
+                              between ff. 76 and 82; some losses of the manuscript layer
+                              respectively. Inks: local abrasions of the black and red ink layers
+                              intentionally taken off by scraping, partly filled with the secondary
+                              text – including large interferences on ff. 7v, 8r, 11r, 13r, 25v,
+                              35v, 36r, 41v, 55r, 65v, 66v, 67r–v, 71v, 73v, 74r, 75r–v, 77r, 78r,
+                              79r–v, 86r–v, 89v, 91r, 92r, 95v, 98r, 99r, 101v, 103v, 104v, 106r,
+                              116r; on many folios marginal additions are abraded and/or poorly
+                              legible, e.g.: ff. 1r–v, 2r, 57r; in most places the ink of the
+                              secondary additions firmly penetrated the parchment, causing the
+                              danger of ink corrosion. Initials and decoration: the painting layers
+                              of the colored initials are also partly abraded, particularly within
+                              the upper part of the folios: some parts of green and red colors are
+                              completely powdered; some red initials within the outer folios of the
+                              bookblock are also visibly darkened. Yellow colors are both faded or
+                              optionally darkened. Some of the blue initials are distinctly
+                              darkened. Green initials penetrated deeply into the parchment,
+                              crumbling or changing the color to brownish, some letters destroyed
+                              (ff. 2v, 5v) which might indicate different stages of the copper
+                              corrosion process. However, large decorated initials on ff. 7v and 42v
+                              and smaller linear initial on f. 117r remain in rather good condition.
+                              Distinctive silhouette initials on ff. 54v and 63r are unfortunately
+                              partly abraded. </seg>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout rulingMedium="lead" n="A" columns="1" writtenLines="33">
+                           <formula notation="Muzerelle" resp="#KN">221-1/0/1-1/J</formula>
+                           <locus from="f1r" to="f6v">ff. 1r–6v</locus>; written space 169 × 127 mm;
+                           distance between vertical ruling <measure type="distVerticalRuling"
+                              unit="mm">7/11/5/10/94 mm;</measure> 33 lines. </layout>
+                        <!-- TODO: term dicts need to be enriched project-based -->
+                        <layout n="B" writtenLines="16" columns="1" rulingMedium="hardpoint,leadpoint">
+                           <formula notation="Muzerelle" resp="#KN">2-2/0/1-1/J</formula>
+                           <locusGrp>
+                              <locus from="f7r" to="f123v">ff. 7r–123v,</locus>
+                              <locus from="f125v" to="f129v">125v–129v,</locus>
+                              <locus from="f132r" to="f151v">132r–151v</locus>
+                           </locusGrp>; written space <dimensions unit="mm" type="written">
+                              <height unit="mm" quantity="154">154</height>
+                              <width unit="mm" quantity="102">102 mm</width>
+                           </dimensions>; distance between vertical ruling <measure
+                              type="distVerticalRuling" unit="mm">9/102/8 mm</measure>; 16 lines. </layout>
+                        <layout n="C" writtenLines="16" columns="2" rulingMedium="lead">
+                           <formula notation="Muzerelle" resp="#KN">2-2-3/0/1-1/J</formula>
+                           <locusGrp>
+                              <locus from="f124r" to="f125r">ff. 124r–125r,</locus>
+                              <locus from="f130r" to="f131v"> 130r–131v;</locus>
+                           </locusGrp> written space <dimensions unit="mm" type="written">
+                              <height quantity="163">163</height>
+                              <width quantity="120">120 mm;</width>
+                           </dimensions> distance between vertical ruling <measure
+                              type="distVerticalRuling" unit="mm">8/40/7/7/50/8 mm</measure>; 16
+                           lines. </layout>
+                        <!-- use additional layout elements if necessary 
+                        https://git.io/msdescdoc#layoutdesc-->
+                     </layoutDesc>
+                  </objectDesc>
+
+                  <handDesc>
+                     <!-- @hands optional, does not include later additions -->
+                     <handNote script="humanisticaCursiva" xml:id="hand-suppl-1">
+                        <term type="script">humanistic script</term>
+                     </handNote>
+                     <handNote medium="pencil" script="modern" xml:id="hand-suppl-2"/>
+                     <handNote> (H1) the main text of the collectar is written in large praegothica
+                        (second half of the 12th c.). Parts of the text in smaller praegothica can
+                        be found on ff. 62v, 137r–138v, 145r–147v. Frequent use of the ampersand, nt
+                        and st ligatures, and e caudata. No forking of ascenders, horizontal serifs
+                        instead. Letter g with two closed lobes. Double i in a form ij.</handNote>
+                     <handNote>(H2) The main text of the calendar (ff. 1r–6r) is written in small
+                        praegothica (second half of the 12th c.).</handNote>
+                     <handNote>(H3) The fifth column of the computus tables (f. 6v) is written in
+                        small praegothica (13th c.).</handNote>
+                     <handNote>(H4) The list of commemorative antiphons (f. 7r) is written in small
+                        praegothica (13 th c.).</handNote>
+                     <handNote>(H5) Text on the added smaller leaf (f. 68r) is written in large
+                        praegothica (second half of the 12th c.).</handNote>
+                     <handNote>(H6) Added text on ff. 118v–119v is written in northern textualis
+                        formata (14th c.). There are many marginal and interlinear additions and
+                        corrections by several medieval and early modern hands. Some of them can be
+                        distinguished:</handNote>
+                     <handNote>(Ha1) Marginal additions in red praegothica: ff. 105v, 110r, 111r–v,
+                        112v, 113r–v (probably slightly later than the original text).</handNote>
+                     <handNote>(Ha2) Longer additions in praegothica filling the lower margin,
+                        erased and hardly visible: ff. 57r–58r, 76r.</handNote>
+                     <handNote>(Ha3) Short marginal additions in praegothica, in decorative frames
+                        ff. 97v, 98v, 101r, 101v, 104r, 107r (13 th c.).</handNote>
+                     <handNote>(Ha4) Short marginal or interlinear additions in northern textualis
+                        libraria with paragraph signs extended into decorative frames: ff. 70r, 86r,
+                        93r–v, 99r, 101r, 104v (14th c.).</handNote>
+                     <handNote>(Ha5) Longer corrections and additions by an early modern hand
+                        throughout the entire manuscript, sometimes the original text is crossed out
+                        (e.g. f. 9v), sometimes the corrections are made over the erased original
+                        text (e.g. f. 13r), (16th/17th c.).</handNote>
+                     <handNote>(Ha6) In some places a new liturgical text was added on the erased
+                        original text by a later (probably early modern) hand imitating the original
+                        script: ff. 60v, 61r, 95v, 96r.</handNote>
+                  </handDesc>
+                  <musicNotation>
+                     <p>(1) original layer (ff. 145r, 146v): German-French unheightened neumes. The
+                        set of signs is characteristic of the Cistercian usage, though the neumes
+                        are not placed on lines. The set of signs also contains the special German
+                        neumes (quilisma, pressus), which suggests that it was written relatively
+                        early and in Germany. Both forms of clivis (acute and rectangular) are
+                        present, with the latter occurring only in a compound with the previous
+                        punctum at the same height. Noteworthy are both forms of cephalicus (French
+                        and German). Although the neumes were written without lines, the “2”-shaped
+                        custos (an integral part of the Cistercian notation) is present in the
+                        fourth line of the antiphon for the deceased, inc. Clementissime domine qui
+                        pro nostra (f. 145r). This antiphon is the only chant with full musical
+                        notation provided. Only the initial formulas appear in the two other chants
+                        (f. 146v). (2) later additions (f. 7r): messine neumes (heightened), 13th
+                        c.</p>
+                  </musicNotation>
+                  <decoDesc>
+                     <decoNote><!-- insert if relevant, otherwise delete --></decoNote>
+                     <!-- use additional decoNote elements if necessary 
+                     https://git.io/msdescdoc#decodesc
+                     -->
+                  </decoDesc>
+                  <additions>
+                     <note>
+                        <!-- the record isn't clear -->
+                        <locus from="fI" to="fIV">ff. I–IV</locus> Additions <note>
+                           <locus>Front pastedown:</locus>
+                           <note hand="#hand-1">
+                              <origDate notAfter="1800" notBefore="1700" calendar="Gregorian">17h c.</origDate>
+                              <p n="1">
+                                 <locus>col.</locus>
+                                 <q>Ad p<supplied reason="omitted-in-original"
+                                       >osce</supplied>nd<supplied>am</supplied> serenitatem – Ad te
+                                    nos Domine clamantes exaudi, et aeris serenitatem <gap
+                                       reason="editorial"/> clementiam sentiamus.</q>
+                              </p>
+                           </note>
+                           <note hand="#hand-2"><q>Rękopis opisany Kalendarz wydany. Zakrzewski St.,
+                                 Analecta Cisterciensia. Rozprawy Akad. Um. Hist. Fil. s. II tom
+                                 XXIV Krk 1907</q></note>
+                           <note type="probatio_calami"><locus>in the bottom</locus><q>Ave
+                              Ave</q></note>
+                           <stamp><num>Two</num> illegible round stamps <locus>in the
+                              middle</locus></stamp>
+                        </note>
+                        <note/>
+                     </note>
+                  </additions>
+                  <bindingDesc>
+                     <binding notAfter="1551" notBefore="1550">
+                        <p> Binding Dating and dimensions: mid 16th c., workshop of Poznań (?);
+                           155–166 × 230–246 mm, 55–58 mm (block with binding). General character:
+                           brown calfskin over wooden boards with blind tooling decoration.
+                           Pastedown, flyleaves: single paper pastedowns which have been folded in
+                           hook guards around the paper endleaf quires in quarto. The stabs of
+                           pastedowns glued to the first and the last folios of the manuscript.
+                           Sewing: sewn on four raised double supports made of hempen cords. Spine
+                           lining: the spine rounded and lined with parchment strips. Endbands:
+                           worked on the edge of parchment strips of a head- and a tail-lining with
+                           triple linen thread in two colors. Edges: trimmed and undecorated. Boards
+                           and their attachment: beech boards beveled from the inner face along the
+                           whole length of the free edges. The beveling interrupted at places of
+                           intended furnishings and fastenings. Covering: smoothed brown calfskin.
+                           Decoration: on the upper cover, triple fillet creates two-line
+                           compartment borders to a central panel. The outermost frame is decorated
+                           with baluster-like ornament and on the inner border and the central panel
+                           three floral stamps are used. The impressions of a fleuron stamp creates
+                           the cross in the middle of the central panel. The title “COLLE CTARIUS”
+                           is stamped in the lower part of the inner border. On the lower cover the
+                           ornamental roll creates a single border of a central panel decorated with
+                           impressions of three kinds of floral stamps. 212 Descriptio et traditio.
+                           Potencjał projektów badawczych Liturgica Poloniae: Katalog polskich...
+                           Codices et fragmenta. Średniowieczny kodeks rękopiśmienny w aspekcie
+                           historycznego trwania Fastenings and furnishings: one hook-clasp
+                           fastening was used, although the covers were prepared to attach two
+                           fasteners. Impressions of metal furnishings stylized around the mid16th
+                           c. in the corners of both covers are visible.</p>
+                        <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
+                     </binding>
+                  </bindingDesc>
+                  <sealDesc>
+                     <seal>
+                        <p><!-- insert relevant information, otherwise delete
+                        https://git.io/msdescdoc#seals -->
+                        </p>
+                     </seal>
+                  </sealDesc>
+                  <accMat>
+                     <!-- insert if relevant, otherwise delete 
+                     https://git.io/msdescdoc#accMat
+                     -->
+                  </accMat>
+               </physDesc>
+               <history>
+                  <!-- see https://git.io/msdescdoc#history -->
+                  <origin>
+                     <!-- see https://git.io/msdescdoc#origin -->
+                     <origPlace>
+                        <country><!-- insert --></country>, <region><!-- insert --></region>,
+                           <settlement><!-- insert --></settlement>,
+                           <orgName><!-- insert --></orgName>
+                     </origPlace>
+                     <origDate notAfter="1175" notBefore="1150" calendar="Gregorian">The
+                        manuscript was produced in the Cistercian scriptorium in the Cologne area in
+                        the third quarter of the 12 th c., presumably in Altenberg (a mother monastery
+                        of Ląd) which – according to the Order’s rules – had an obligation to equip the
+                        newly founded house with a collectar. The dating of the manuscript is argued
+                        based on the lack of the formulary for the feast of St Bernard (added after the
+                        temporal cycle, already after the completion of the codex), and the originally
+                        lacking commemoration of St Thomas Becket in the calendar, which was added by a
+                        different hand. Furthermore, the feast of Mary Magdalene has still a lower rank
+                        than that introduced to the Order in 1175. Moreover, in the calendar, there is
+                        an addition of the translation of Three Kings to Cologne, which occurred on
+                        July 13, 1164. It was most probable that the addition was inserted while the
+                        manuscript was still around Cologne, perhaps in Altenberg abbey, whence the
+                        monks came to Ląd at the end of the 12 th c. </origDate>
+                     <!-- use additional origPlace and origDate elements if necessary --> </origin>
+                  <!--<provenance notBefore="" notAfter=""></provenance>-->
+                  <acquisition><!-- insert --></acquisition> 
+                 </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <!-- insert prose here; see https://git.io/msdescdoc#recordHist -->
+                           <bibl><!-- insert if necesary, otherwise delete --></bibl>
+                           <!-- links to digitized catalogues may also be provide here, e.g.: -->
+                           <!--<listBibl>
+                              <bibl type="SC" facs="aas0046.gif">Summary Catalogue, Vol. 3, p.  31</bibl>
+                           </listBibl>-->
+                           <p> Altenberg (?)–Ląd–Poznań–Kraków–?–
+                              London–New York–New Haven Soon after its production in the Cologne area, the
+                              manuscript was used in the Cistercian monastery of Ląd (est. ca. 1145) in Greater
+                              Poland, as attested by the locally inserted obituary additions in the calendar.
+                              The early modern additions to the manuscript, modifying its liturgical content
+                              according to the liturgical reforms after the Council of Trent, suggest persistent
+                              usage of the collectar in the monastery until at least the 17th c. In the 19th c.,
+                              the manuscript was in Poznań, Biblioteka seminaryjna, as attested by numerous
+                              modern stamps (e.g., front guard paper folio, f. IIIr). The collectar was not
+                              included by Arkadiusz Lisiecki in his catalogue of manuscripts from Poznań,
+                              Biblioteka seminaryjna, published in 1905, because at the beginning of the 20th c.
+                              the manuscript was already in Kraków, Biblioteka Polskiej Akademii Umiejętności
+                              (PAU). According to Stanisław Zakrzewski, who published on the collectar’s
+                              calendar in 1907, the manuscript was handed to the PAU library as a deposit.
+                              Władysław Semkowicz (d. 1949) could have been the last scholar who had direct
+                              access to the collectar and published the analysis of the manuscript in his
+                              posthumously edited Paleografia łacińska (1951) upon which he worked during World
+                              War II. However, as reported by Hieronim Feicht in 1966, the manuscript was lost
+                              from Kraków during World War II. In 1996 the codex was listed in the auction
+                              catalogue of Sotheby’s, presumably purchased by H.P. Kraus (New York). In 1999 the
+                              collectar was sold by H.P. Kraus to Beinecke Library (New Haven) thanks to the
+                              Albert H. Childs Fund. </p>
+                        </source>
+                     </recordHist>
+                    
+                  </adminInfo>
+                 
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-06-21" xml:id="v01">First TEI version.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+            <expan>Eccl<ex>esi</ex>am</expan>
+            <expan>tua<ex>m</ex></expan> domine benignus illustra ut beati Iohannis <add
+               hand="#hand-suppl-1">Apostoli tui et eu</add>angeliste illuminata doctrinis ad dona
+                  <expan>p<ex>er</ex>ueniat</expan> sempiterna. <abbr type="word" subtype="formula"
+                  >P<ex>er</ex></abbr>. </p>
+         <p> </p>
+      </body>
+   </text>
+</TEI>
