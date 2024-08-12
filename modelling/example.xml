@@ -8,48 +8,114 @@
          <titleStmt>
             <!-- = shelfmark (per CTS Template) -->
             <title>Ms. 883</title>
-            <!-- = collection 
-               (per CEGMD 1.4.1.1: https://msdesc.github.io/consolidated-tei-schema/msdesc.html#titlestatement) -->
+            <!-- = collection (per CEGMD 1.4.1.1: https://msdesc.github.io/consolidated-tei-schema/msdesc.html#titlestatement) -->
             <title type="collection">Beinecke Rare Book and Manuscript Library</title>
+            
+            <!-- = list of contributors;
+               the respStmt element requires a resp element; however, responsability
+               may be distributed (as is the case of the content derscription), 
+               thus, I'd consider using a standoff listPerson to refer to contributors
+            -->
             <respStmt xml:id="PF">
-               <resp when="2024">Cataloguer</resp>
-               <persName>Paweł Figurski</persName>
+               <resp>Codicological and paleographical description (except for Music notation)</resp>
+               <resp>Content</resp> <!-- it's not easy to express the extent (see above) -->
+               <resp>History of the manuscript</resp>
+               <persName type="person">Paweł Figurski</persName>
+               <orgName>Instytut Sztuki PAN w Warszawie</orgName>
             </respStmt>
-            <respStmt xml:id="KN">
-               <resp when="2024">Markup and encoding</resp>
-               <persName>Krzysztof Nowak</persName>
+            <respStmt xml:id="ICh">
+               <resp>Music notation</resp>
+               <resp>Content</resp> <!-- it's not easy to express the extent (see above) -->
+               <persName type="person">Irina Chachulska</persName>
+               <orgName>Instytut Sztuki PAN w Warszawie</orgName>
+            </respStmt>
+            <respStmt xml:id="KD">
+               <resp>Content</resp> <!-- it's not easy to express the extent (see above) -->
+               <persName type="person">Katarzyna Danilewicz</persName>
+               <orgName>Instytut Nauk o Sztuce Katolickiego Uniwersytetu Lubelskiego w Lublinie</orgName>
+            </respStmt>
+            <respStmt xml:id="MJR">
+               <resp>Decoration</resp>
+               <persName type="person">Monika Jakubek-Raczkowska</persName>
+               <orgName>Wydział Sztuki Pięknych UMK w Toruniu</orgName>
+            </respStmt>
+            <respStmt xml:id="JK">
+               <resp>Content</resp> <!-- it's not easy to express the extent (see above) -->
+               <persName type="person">Jakub Kubieniec</persName>
+               <orgName>Instytut Muzykologii UJ w Krakowie</orgName>
+            </respStmt>
+            <respStmt xml:id="WL">
+               <resp>Condition</resp>
+               <persName type="person">Weronika Liszewska</persName>
+               <orgName>Wydział Konserwacji i Restauracji Dzieł Sztuki ASP w Warszawie</orgName>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <resp>Codicological and paleographical description (except for Music notation)</resp>
+               <persName type="person">Adam Poznański</persName>
+               <orgName>Biblioteka Uniwersytecka we Wrocławiu</orgName>
+            </respStmt>
+            <respStmt xml:id="JR">
+               <resp>Decoration</resp>
+               <persName type="person">Juliusz Raczkowski</persName>
+               <orgName>Wydział Sztuk Pięknych UMK w Toruniu</orgName>
+            </respStmt>
+            <respStmt xml:id="JT">
+               <resp>Binding</resp>
+               <persName type="person">Jacek Tomaszewski</persName>
+               <orgName>Muzeum Azji i Pacyfiku w Warszawie</orgName>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <!-- dane projektu -->
+            <!-- = project's name -->
             <edition>Liturgica Poloniae. TEI Edition</edition>
+            
+            <!-- = funding information -->
             <funder>
                <orgName>
-                  <ref target="https://liturgica-poloniae.ihpan.edu.pl/">Liturgica Poloniae. Katalog polskich rękopisów liturgicznych. Cz. 1: do około 1300 r.</ref>
+                  <ref target="https://liturgica-poloniae.ihpan.edu.pl/">
+                     Liturgica Poloniae. Katalog polskich rękopisów liturgicznych. Cz. 1: do około 1300 r.
+                  </ref>
                </orgName>
             </funder>
          </editionStmt>
-         <publicationStmt>
-            <publisher>Liturgica Poloniae Project</publisher>
+         
+          <publicationStmt>
+             <!-- = project's data -->
+            <publisher>
+               <!-- added @type="project" to further distinghuish from the institutional name -->
+               <name type="project">Liturgica Poloniae Project</name>
+               <!-- = institution's name;
+                  CEGMD 1.4.1.3 recommends to use LoC MARC name, however, the list doesn't seem to include Polish institutions 
+                  see https://msdesc.github.io/consolidated-tei-schema/msdesc.html#publicationstatement
+               -->
+               <orgName>Instytut Sztuki PAN</orgName>
+            </publisher>             
             <distributor>
+               <persName>Paweł Figurski</persName>
                <email>pawel.figurski.uw@gmail.com</email>
             </distributor>
-            <!-- = normalized form of shelfmark (per CTS Template) -->
-            <idno type="msID">Beinecke_MS_883</idno>
+            <!-- semantics of the following idnos in this context is not clear to me;
+               as the <idno>s occur in a <publicationStmt> element,
+               I'd restrict them to contain a canonical identifier of the catalogue record;
+               the shelfmarks may be then documented in the <sourceDesc> element  -->
+            <!-- = normalized form of shelfmark (as per CTS Template);-->
+            <!--<idno type="msID">Beinecke_MS_883</idno>-->
             <!-- = normalized form of collection (per CTS Template) -->
-            <idno type="collection">Beinecke</idno>
-         </publicationStmt>
+            <!--<idno type="collection">Beinecke</idno>-->
+         </publicationStmt>         
          <sourceDesc>
-            <p></p>
-         </sourceDesc>
-         <sourceDesc>
-            <msDesc xml:lang="en" xml:id="liturgica_113">
+            <msDesc xml:lang="lat" xml:id="beinecke_883">
+               <!-- = current location and shelfmark (per CEGMD 1.6.1)-->
+               <!-- xml:id = a normalized form of the shelfmark -->
                <msIdentifier>
                   <country>United States of America</country>
                   <settlement>New Haven (CT)</settlement>
                   <institution>Yale University</institution>
                   <repository>Beinecke Rare Book and Manuscript Library</repository>
                   <idno type="shelfmark">Ms. 883</idno>
+                  <!-- an alternative name the ms is known under-->
+                  <msName xml:lang="la">Collectarium Landense / Cisterciense</msName>
+                  <!-- = former shelfmarks / other catalogues (per CEGMD 1.6.1)-->
                   <altIdentifier type="external">
                      <idno type="MSPL">EXPL 599</idno>
                   </altIdentifier>
@@ -57,10 +123,39 @@
                      <idno type="RISM">US-NHub Ms. 883</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>Collectarium Landense / Cisterciense; Calendar, Collectar, and Ritual; Cologne
-                  area, Altenberg (?); s. XII 3/4</head>
+               <!-- CEGMD 1.6.2: 
+                  (1) a brief descriptive title 
+                  (2) place of origin if known 
+                  (3) date of origin -->
+               <head>
+                  <title type="main">Collectarium Landense / Cisterciense</title>
+                  <title type="sub">Calendar, Collectar, and Ritual</title>
+                  <origPlace>
+                     <region>Cologne area</region>
+                     <!-- @cert="low" encodes '(?)' -->
+                     <settlement cert="low">Altenberg</settlement>
+                  </origPlace>
+                  <!-- 
+                     normalization of date strings may be applied project-wise;
+                     the system employed in the Bodleian, see CEGMD 1.6.5.1.1
+                  -->
+                  <origDate notAfter="1300" notBefore="1275" calendar="Gregorian">
+                     s. XII 3/4
+                  </origDate>                  
+                  <!-- rough description may be encoded as simply as:
+                     <head>
+                        Collectarium Landense / Cisterciense;
+                        Calendar, Collectar, and Ritual;
+                        Cologne area, Altenberg (?); 
+                        s. XII 3/4
+                        </head>
+                     -->
+               </head>
                <msContents>
-                  <!--Short overview -->
+                  <!-- 
+                     "a brief prose account" (CEGMD 1.6.3.1)
+                     (left as it is as you probably have a separate entry for that)
+                  -->
                   <summary>Cistercian collectar of the so-called second recension with parts of a
                      ritual and the calendar with local obituaries; parchment (151 ff.) and paper
                      (flyleaves and fragment: V ff. + loose paper leaf fragment); 220–226 × 155–162
@@ -70,22 +165,76 @@
                      written in praegothica, mostly in 1 column with 16 lines; music notation (on
                      ff. 7r, 145r and 146v); early modern binding (brown calfskin over wooden
                      boards) from Poland (mid 16th c.).</summary>
+                  <!-- language of the ms. -->
                   <textLang mainLang="la">Latin</textLang>
-                  <!-- for alternative encoding of additions see below -->
-                  <msItem xml:id="manuscript_1_front_additions" n="1">
-                     <note type="additions">Additions</note>
+                  
+                  <!-- for an alternative way of encoding additions in the <additions> element,
+                     see below; generally, the ms parts that are not interesting for their intellectual content
+                     may be encoded in the <additions> element
+                  -->
+                  <!-- @n encodes the sequential order of the items in the ms. for readers-->
+                  <msItem xml:id="manuscript_1_addition_1" n="1">
+                     <locus from="I" to="IV">ff. I–IV</locus>
+                     <title>Additions</title>
+                     <msItem xml:id="manuscript_1_addition_1_1" n="1">
+                        <locus>Front pastedown</locus>
+                        <!-- if more in-depth parsing is not required the entire description may go to a single <note> element -->
+                        <note>
+                           <p>(1) col. Ad p&lt;osce&gt;nd&lt;am&gt; serenitatem – Ad te nos Domine clamantes exaudi, et aeris
+                           serenitatem... &gt;&lt; ...clementiam sentiamus</p>
+                           <p>Modern pencil note: Rękopis opisany Kalendarz wydany. Zakrzewski St., Analecta Cisterciensia.
+                           Rozprawy Akad. Um. Hist. Fil. s. II tom XXIV Krk 1907</p>                           In the bottom: probatio calami (Ave Ave)
+                           <p>Two illegible round stamps in the middle</p>
+                        </note>
+                     </msItem>
+                     <msItem xml:id="manuscript_1_addition_1_2" n="2">
+                        <locus from="Ir" to="Ir">f. Ir</locus>
+                        <note></note>
+                     </msItem>
+                     <msItem xml:id="manuscript_1_addition_1_3" n="3">
+                        <locus from="Iv" to="Iv">f. Iv</locus>
+                        <note></note>
+                     </msItem>
+                     <msItem xml:id="manuscript_1_addition_1_4" n="4">
+                        <locus from="IIr" to="IIr">f. IIr</locus>
+                        <note></note>
+                     </msItem>
+                     <msItem xml:id="manuscript_1_addition_1_5" n="5">
+                        <locus from="IIv" to="IIv">f. IIv</locus>
+                        <note></note>
+                        <note></note>
+                     </msItem>
+                     <msItem xml:id="manuscript_1_addition_1_6" n="6">
+                        <locus from="IIIr" to="IIIr">f. IIIr</locus>
+                        <note></note>
+                     </msItem>
+                     <msItem xml:id="manuscript_1_addition_1_7" n="7">
+                        <locus from="IVr" to="IVr">f. IVr</locus>
+                        <note></note>
+                     </msItem>
+                     <msItem xml:id="manuscript_1_addition_1_8" n="8">
+                        <locus from="IVv" to="IVv">f. IVv</locus>
+                        <note></note>
+                     </msItem>
+                     <msItem xml:id="manuscript_1_addition_1_9" n="9">
+                        <locus from="Ir" to="IIIv">f. IIIv</locus>
+                        <note></note>
+                     </msItem>
                   </msItem>
-                  <msItem xml:id="manuscript_1_1" n="">
+                  
+                  <msItem xml:id="manuscript_1_1" n="2">
                      <locus from="1r" to="6r">ff. 1r–6r</locus>
-                     <title type="modern" resp="#PF">Calendar</title>
+                     <!-- @xml:lang and @resp are not obligatory 
+                        but may help to distinguish between modern and medieval titles -->
+                     <title xml:lang="en" resp="#PF">Calendar</title>
                      <!-- alternative: title -->
-                     <note type="grouping">Calendar</note>
                      <msItem n="1" xml:id="manuscript_1_1_1">
                         <note>Original layer, includes saints and feasts typical of the Cistercian
                            calendar, noteworthy</note>
                         <incipit>Vitalis, Felicule, Zenonis, Com.</incipit>
                      </msItem>
                   </msItem>
+                  
                   <msItem xml:id="manuscript_1_10">
                      <rubric> In sabbato adventus Domini <locus from="7v">(f. 7v)</locus>; </rubric>
                      <rubric>Dominica <locus from="8r">(f. 8r)</locus>; </rubric>
