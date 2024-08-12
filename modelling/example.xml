@@ -178,7 +178,8 @@
                      <title>Additions</title>
                      <msItem xml:id="manuscript_1_addition_1_1" n="1">
                         <locus>Front pastedown</locus>
-                        <!-- if more in-depth parsing is not required the entire description may go to a single <note> element -->
+                        <!-- if in-depth parsing is not required the entire description may go to a single <note> element -->
+                        <!-- for an alternative way of encoding text variants and critical apparatus see below -->
                         <note>
                            <p>(1) col. Ad p&lt;osce&gt;nd&lt;am&gt; serenitatem – Ad te nos Domine clamantes exaudi, et aeris
                            serenitatem... &gt;&lt; ...clementiam sentiamus</p>
@@ -227,12 +228,55 @@
                      <!-- @xml:lang and @resp are not obligatory 
                         but may help to distinguish between modern and medieval titles -->
                      <title xml:lang="en" resp="#PF">Calendar</title>
-                     <!-- alternative: title -->
-                     <msItem n="1" xml:id="manuscript_1_1_1">
-                        <note>Original layer, includes saints and feasts typical of the Cistercian
-                           calendar, noteworthy</note>
-                        <incipit>Vitalis, Felicule, Zenonis, Com.</incipit>
-                     </msItem>
+                     <note n="1">
+                        <p>Original layer, includes saints and feasts typical of the Cistercian calendar, noteworthy:</p>
+                       <p> [missing leaf for January]; Vitalis, Felicule, Zenonis, Com. (14 Feb.); Marie Magdalene,
+                        XII l., D [duae missae] (22 July); Christophori et Cucufati, mart., Com. (25 July); Evur-
+                        cii, ep., Com. (7 Sept.); Lamberti, ep. et mart., Com. (17 Sept.); Virginum undecim mi-
+                        lium, XII l. (21 Oct.); Cesarii, Benigni, mart. (1 Nov.)</p>
+                     </note>
+                     <note n="2">
+                        <p>Later additions (late 12th/13th–17th; hands H6, Ha2, Ha3, Ha4, and Ha5 possibly
+                        involved) include saints and feasts added successively according to development of the
+                        Cistercian calendar, some of them have only been introduced in certain regions/monastic
+                        centres; in some cases, the rank of the feast changed over time (e.g. Lamberti ep. et. mart,
+                        from Com to XII l.), noteworthy additions:</p>
+                       <p> [missing leaf for January]; Dorothee, virg., XII l. (6 Feb.); Kasimiri conf., XII l.
+                        (4 March); Ioseph sponsi BVM, MM [duae missae] (19 March); Adalberti, ep. et mart.,
+                        XII l., 2 m. (23 April); Roberti, abb., XII l. (29 April); Stanislai, ep. et mart., XII l.,
+                        2 m. (8 May); Ludgardis, virg., m. [mystica] (16 June); Translacio trium regum ad
+                        Coloniam (23 July); [Spinea] Corone Domini, XII l., 2 m. (11 Aug.); Bernardi, abb.,
+                        XII l., 2 m., ser. (20 Aug.); Lodovici, conf., XII l., 1 m. (25 Aug.); Wenceslai, mart.,
+                        XII l., 1 m. (28 Sept.); Dominica post Dyonisii habetur dedicatio Lydensis ecclesiae);
+                        Hadewigis (15 Oct.); Quinque fratrum Polonorum, XII l., 1 m. (12 Nov.); Katherine,
+                        XII l. (25 Nov.); Thome [Thomas Becket], ep. et mart., XII l., 2 m. (29 Dec.); Dedicacio
+                        seu consecracio ymaginis crucifixi domini nostri Ihesu Christi nec non omnium ymagi-
+                        num tabularum beate Virginis Marie semper proxima feria tercia infra octavas Ascensio-
+                        nis Domini est celebranda</p>
+                     </note>
+                     <note n="3">
+                        <p>Anniversaries celebrated in Ląd Abbey, added to the calendar:</p>
+                        <p>anniversarium Karoli (4 Feb.); anniversarium Nycolai iudicis de Venecia... in anno III
+                        feria singulis quatuor temporibus (25 Feb.); anniversarium Wyczek heredis in Szetlewo
+                        semper quolibet anno in singulis quatuor temporibus (27 Feb.); anniversarium comitis
+                        Dobeslai (13 March); obiit dux Mescho fundator domus Landensis (15 March); Philip-
+                        pus monachus et sacerdos propter nomen Christi in Pruzia martirizatus est (4 May);
+                        anniversarium omnium monachorum noviciorum et conversorum ac monialium ordinis
+                        nostri (20 May); anno domini MCCLXXXXIIII occubuit dux Kazimirus Lanzizienzis pro
+                        ecclesia sancta (10 June)</p>
+                     </note>                    
+                  </msItem>
+                  <msItem xml:id="manuscript_1_2" n="3">
+                     <locus from="6v" to="6v">f. 6v</locus>
+                     <title xml:lang="en" resp="#PF">Computus tables</title>
+                  </msItem>
+                  <msItem xml:id="manuscript_1_3" n="4">
+                     <locus from="7r" to="7r">f. 7r</locus>
+                     <title xml:lang="en" resp="#PF">List of commemorative antiphons</title>
+                  </msItem>
+                  <msItem xml:id="manuscript_1_4" n="5">
+                     <locus from="7r" to="151v">ff. 7r–151v</locus>
+                     <title xml:lang="en" resp="#PF">Collectar with parts of a ritual</title>
                   </msItem>
                   
                   <msItem xml:id="manuscript_1_10">
@@ -398,6 +442,11 @@
                      <rubric>[Dominica] XXIII <locus from="61v">(f. 61v)</locus>;</rubric>
                      <rubric>[Dominica] XXIIII <locus from="62r">(f. 62r)</locus>;</rubric>
                      <rubric>[Dominica] XXV <locus from="62r">(f. 62r)</locus></rubric>
+                  </msItem>
+                  <!-- Alternatively (and perhaps preferably), it could be encoded in the <additions> element -->
+                  <msItem xml:id="manuscript_1_7" n="6">
+                     <locus from="154v" to="154v">f. 154v</locus>
+                     <title>Paper back flyleaf</title>
                   </msItem>
                </msContents>
 
@@ -630,7 +679,8 @@
                      -->
                   </decoDesc>
                   <additions>
-                     <note>
+                     <!-- in-depth classification may be provided in @type and @subtype -->
+                     <note type="addition">
                         <!-- the record isn't clear -->
                         <locus from="fI" to="fIV">ff. I–IV</locus> Additions <note>
                            <locus>Front pastedown:</locus>
@@ -654,7 +704,27 @@
                         </note>
                         <note/>
                      </note>
-                  </additions>
+                     <note type="addition">
+                        <locus from="154v" to="154v">f. 154v</locus>
+                        <title>Paper back flyleaf</title>
+                     </note>
+                     <note type="addition" subtype="loose">
+                       <p>Within the manuscript there is a  <locus type="loose">loose fragment</locus> of a paper leaf with a part of a letter
+                           in Polish from the early modern period, presumably of the 16 th c.:</p>
+                          <p> M[ilos]cziwi x. opaczie Lenczky &lt;m&gt;oy Mcziwi panie sluzbi swe ssercza [illegible] &lt;me&gt;ego
+                              Mcziwego pana [illegible]</p>
+                     </note>
+                     <note type="addition" subtype="noncontinuous">
+                        <title>Early Modern additions throughout the entire manuscript</title>
+                        <p>On most folios (apart from ff. 118v–151v) numerous additions by the same late 17th c.
+                        cursive hand (cf. ff. Ir and IIr) with incipits or whole texts of collects and chapters which
+                        adjust the content to post-Tridentine Cistercian rite edited for the first time in Breviarium
+                        cistercium iuxta ritum romanum (1656). The original content is often scraped off (e.g. ff. 25v,
+                        55r, 66v, 67v, 75r, 77r, 99r, 116r) or crossed out (e.g. ff. 16r, 20r, 23v–24r, 35v, 55v–56r,
+                        91v–92r). Similar additions by other 17th c. hands on ff. 31v, 71v, 76r, 105v; sometimes
+                        written on erased text and imitating gothic script (ff. 60v–61r, 95v–96r).</p>
+                     </note>
+                  </additions>                  
                   <bindingDesc>
                      <binding notAfter="1551" notBefore="1550">
                         <p> Binding Dating and dimensions: mid 16th c., workshop of Poznań (?);
