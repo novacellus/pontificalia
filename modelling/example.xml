@@ -277,172 +277,177 @@
                   <msItem xml:id="manuscript_1_4" n="5">
                      <locus from="7r" to="151v">ff. 7r–151v</locus>
                      <title xml:lang="en" resp="#PF">Collectar with parts of a ritual</title>
+                     <msItem xml:id="manuscript_1_4_1" n="1">
+                        <locus from="7v" to="62r">ff. 7v–62r</locus>
+                        <title xml:lang="en" resp="#PF">Temporal</title>
+                        <note>Chapters and collects, mostly for Lauds, Terce, Sext, None, Vespers.
+                           In sabbato adventus Domini, ad vesperas capitulum – Ecce dies adveniunt... &gt;&lt; ...ab
+                           omnibus semper [muniamur] adversis. Per Dominum nostrum</note>
+                        <rubric> In sabbato adventus Domini <locus from="7v">(f. 7v)</locus>; </rubric>
+                        <rubric>Dominica <locus from="8r">(f. 8r)</locus>; </rubric>
+                        <rubric>Sabbato ante secundam dominicam <locus from="8v">(f.
+                           8v)</locus>;</rubric>
+                        <rubric> Dominica secunda <locus from="9r">(f. 9r)</locus>; </rubric>
+                        <rubric>Sabbato ante <supplied>III</supplied> dominicam <locus from="9r">(f.
+                           9r)</locus>; </rubric>
+                        <rubric>Dominica III <locus from="9v">(f. 9v)</locus>;</rubric>
+                        <rubric>Feria quarta in ieiunio <locus from="9v">(f. 9v)</locus>;</rubric>
+                        <rubric>Feria VI <locus from="9v">(f. 9v)</locus>;</rubric>
+                        <rubric>Sabbato ante IIII dominicam <locus from="10r">(f.
+                           10r)</locus>;</rubric>
+                        <rubric>Dominica <supplied>IV</supplied>
+                           <locus from="10r">(f. 10r)</locus>;</rubric>
+                        <rubric>Privatis diebus per adventum <locus from="10v">(f.
+                           10v)</locus>;</rubric>
+                        <rubric>In vigilia Natalis <locus from="11v">(f. 11v)</locus>;</rubric>
+                        <rubric>In die Natalis Domini <locus from="12r">(f. 12r)</locus>;</rubric>
+                        <rubric><supplied>A natali Domini usque ad diem Epiphaniae</supplied>
+                           <locus from="13r">(f. 13r)</locus>;</rubric>
+                        <rubric>Per octavas usque ad Circumcisionem <locus from="14r">(f.
+                           14r)</locus>;</rubric>
+                        <rubric>In vigilia Circumcisionis <locus from="14r">(f. 14r)</locus>;</rubric>
+                        <rubric>In die <locus from="14v">(f. 14v)</locus>;</rubric>
+                        <rubric>In vigilia <locus from="14v">(...) Epyphaniae (f.
+                           14v)</locus>;</rubric>
+                        <rubric>In die <locus from="15r">(f. 15r)</locus>;</rubric>
+                        <rubric>Per octavas <locus from="16r">(f. 16r)</locus>;</rubric>
+                        <rubric>Dominica I post natale Domini <locus from="16v">(f.
+                           16v)</locus>;</rubric>
+                        <rubric>Dominica II <locus from="16v">(f. 16v)</locus>;</rubric>
+                        <rubric>Sabbato ante dominicam quae prima sequitur octavas Theophaniae <locus
+                           from="17r">(f. 17r)</locus>;</rubric>
+                        <rubric>Dominica <locus from="17r">(f. 17r)</locus>;</rubric>
+                        <rubric>Per omnes dominicas ab octava Theophaniae usque ad quadragesimam <locus
+                           from="20r">(f. 20r)</locus>;</rubric>
+                        <rubric>Ordo de privatis diebus <locus from="20v">(f. 20v)</locus>;</rubric>
+                        <rubric>Dominica II post octavas Theophaniae <locus from="21v">(f.
+                           21v)</locus>;</rubric>
+                        <rubric>Dominica III <locus from="21v">(f. 21v)</locus>;</rubric>
+                        <rubric>Dominica IV <locus from="22r">(f. 22r)</locus>;</rubric>
+                        <rubric>Dominica in LXX <locus from="22r">(f. 22r)</locus>;</rubric>
+                        <rubric>Dominica in LX <locus from="22r">(f. 22r)</locus>;</rubric>
+                        <rubric>Dominica in L <locus from="22r">(f. 22r)</locus>;</rubric>
+                        <rubric>Feria IIII in capite ieiunii <locus from="22v">(f.
+                           22v)</locus>;</rubric>
+                        <rubric>Benedictio cineris <locus from="23r">(f. 23r)</locus>;</rubric>
+                        <rubric>Feria V <locus from="24v">(f. 24v)</locus>;</rubric>
+                        <rubric>Feria VI <locus from="24v">(f. 24v)</locus>;</rubric>
+                        <rubric>Sabbato <locus from="25r">(f. 25r)</locus>;</rubric>
+                        <rubric>Dominica I in XL <locus from="25r">(f. 25r)</locus>;</rubric>
+                        <rubric>De privatis diebus in XL... Feria secunda <locus from="26r">(f.
+                           26r)</locus>;</rubric>
+                        <rubric>Feria tercia <locus from="27v">(f. 27v)</locus>;</rubric>
+                        <rubric>Feria V <locus from="28r">(f. 28r)</locus>;</rubric>
+                        <rubric>Feria VI <locus from="28v">(f. 28v)</locus>;</rubric>
+                        <rubric>Sabbato <locus from="28v">(f. 28v)</locus>;</rubric>
+                        <rubric>Dominica II in XL <locus from="29r">(f. 29r)</locus>;</rubric>
+                        <rubric>Feria II <locus from="29r">(f. 29r)</locus>;</rubric>
+                        <rubric>Feria III <locus from="29v">(f. 29v)</locus>;</rubric>
+                        <rubric>Feria IIII <locus from="30r">(f. 30r)</locus>;</rubric>
+                        <rubric>Feria quinta <locus from="30r">(f. 30r)</locus>;</rubric>
+                        <rubric>Feria VI <locus from="30v">(f. 30v)</locus>;</rubric>
+                        <rubric>Sabbato <locus from="30v">(f. 30v)</locus>;</rubric>
+                        <rubric>Dominica III in XL <locus from="31r">(f. 31r)</locus>;</rubric>
+                        <rubric>Feria secunda <locus from="31v">(f. 31v)</locus>;</rubric>
+                        <rubric>Feria tercia <locus from="31v">(f. 31v)</locus>;</rubric>
+                        <rubric>Feria IIII <locus from="32r">(f. 32r)</locus>;</rubric>
+                        <rubric>Feria V <locus from="32r">(f. 32r)</locus>;</rubric>
+                        <rubric>Feria VI <locus from="32v">(f. 32v)</locus>;</rubric>
+                        <rubric>Sabbato <locus from="32v">(f. 32v)</locus>;</rubric>
+                        <rubric>Dominica IIII <locus from="33r">(f. 33r)</locus>;</rubric>
+                        <rubric>Feria secunda <locus from="33v">(f. 33v)</locus>;</rubric>
+                        <rubric>Feria III <locus from="33v">(f. 33v)</locus>;</rubric>
+                        <rubric>Feria IIII <locus from="34r">(f. 34r)</locus>;</rubric>
+                        <rubric>Feria quinta <locus from="34r">(f. 34r)</locus>;</rubric>
+                        <rubric>Feria VI <locus from="34v">(f. 34v)</locus>;</rubric>
+                        <rubric>Sabbato <locus from="34v">(f. 34v)</locus>;</rubric>
+                        <rubric>Dominica V <locus from="35r">(f. 35r)</locus>;</rubric>
+                        <rubric>Ordo privatis diebus tenendus usque in vigiliam Paschae <locus
+                           from="36r">(f. 36r)</locus>;</rubric>
+                        <rubric>Feria II <locus from="37r">(f. 37r)</locus>;</rubric>
+                        <rubric>Feria III <locus from="37v">(f. 37v)</locus>;</rubric>
+                        <rubric>Feria IIII <locus from="37v">(f. 37v)</locus>;</rubric>
+                        <rubric>Feria VI <locus from="38r">(f. 38r)</locus>;</rubric>
+                        <rubric>Sabbato <locus from="38v">(f. 38v)</locus>;</rubric>
+                        <rubric>Dominica in palmis <locus from="39r">(f. 39r)</locus>;</rubric>
+                        <rubric>Benedictio super ramos palmarum <locus from="39r">(f.
+                           39r)</locus>;</rubric>
+                        <rubric>Feria II <locus from="41r">(f. 41r)</locus>;</rubric>
+                        <rubric>Feria III <locus from="41v">(f. 41v)</locus>;</rubric>
+                        <rubric>Feria IIII <locus from="41v">(f. 41v)</locus>;</rubric>
+                        <rubric>Feria V in cena Domini et feria VI <locus from="42r">(f.
+                           42r)</locus>;</rubric>
+                        <rubric>In vigilia Paschae <locus from="42v">(f. 42v)</locus>;</rubric>
+                        <rubric>In die sancto Paschae <locus from="43r">(f. 43r)</locus>;</rubric>
+                        <rubric>Per octavas <locus from="43v">(f. 43v)</locus>;</rubric>
+                        <rubric>Feria II <locus from="45r">(f. 45r)</locus>;</rubric>
+                        <rubric>Feria III <locus from="45r">(f. 45r)</locus>;</rubric>
+                        <rubric>Feria IIII <locus from="45v">(f. 45v)</locus>;</rubric>
+                        <rubric>Feria quinta <locus from="45v">(f. 45v)</locus>;</rubric>
+                        <rubric>Feria VI <locus from="45v">(f. 45v)</locus>;</rubric>
+                        <rubric>Sabbato <locus from="46r">(f. 46r)</locus>;</rubric>
+                        <rubric>Dominica in octava <locus from="46r">(f. 46r)</locus>;</rubric>
+                        <rubric>Ordo de privatis diebus ab octava Paschae usque ad Rogationes <locus
+                           from="46v">(f. 46v)</locus>;</rubric>
+                        <rubric>Sabbato post octavas Paschae <locus from="48r">(f.
+                           48r)</locus>;</rubric>
+                        <rubric>Dominica I post octavas Paschae <locus from="48v">(f.
+                           48v)</locus>;</rubric>
+                        <rubric>Sabbato ante secundam dominicam <locus from="49r">(f.
+                           49r)</locus>;</rubric>
+                        <rubric>Dominica II post octavas Paschae <locus from="49v">(f.
+                           49v)</locus>;</rubric>
+                        <rubric>Sabbato ante III dominicam <locus from="50r">(f. 50r)</locus>;</rubric>
+                        <rubric>Dominica III <locus from="50r">(f. 50r)</locus>;</rubric>
+                        <rubric>Sabbato ante quartam dominicam <locus from="50v">(f.
+                           50v)</locus>;</rubric>
+                        <rubric>Dominica IIII <locus from="80v">(f. 80v)</locus>;</rubric>
+                        <rubric>Per tres dies Rogationum <locus from="51r">(f. 51r)</locus>;</rubric>
+                        <rubric>In vigilia Ascensionis <locus from="51v">(f. 51v)</locus>;</rubric>
+                        <rubric>Feria IIII <locus from="52r">(f. 52r)</locus>;</rubric>
+                        <rubric>In die Ascensionis Domini <locus from="52r">(f. 52r)</locus>;</rubric>
+                        <rubric>Dominica infra octavas Ascensionis <locus from="53r">(f.
+                           53r)</locus>;</rubric>
+                        <rubric>Privatis diebus per octavas usque ad Pentecosten <locus from="53v">(f.
+                           53v)</locus>;</rubric>
+                        <rubric>In vigilia Pentecosten <locus from="54r">(f. 54r)</locus>;</rubric>
+                        <rubric>In die sancto Pentecosten <locus from="54r">(f. 54r)</locus>;</rubric>
+                        <rubric>Ordo per octavas <locus from="55r">(f. 55r)</locus>;</rubric>
+                        <rubric>Feria secunda <locus from="56r">(f. 56r)</locus>;</rubric>
+                        <rubric>Feria III <locus from="56r">(f. 56r)</locus>;</rubric>
+                        <rubric>Feria IIII <locus from="56v">(f. 56v)</locus>;</rubric>
+                        <rubric>Feria quinta <locus from="56v">(f. 56v)</locus>;</rubric>
+                        <rubric>Feria VI <locus from="56v">(f. 56v)</locus>;</rubric>
+                        <rubric>Sabbato <locus from="56v">(f. 56v)</locus>;</rubric>
+                        <rubric>Dominica I post Pentecosten <locus from="57r">(f.
+                           57r)</locus>;</rubric>
+                        <rubric>Dominica secunda <locus from="58v">(f. 58v)</locus>;</rubric>
+                        <rubric>Dominica III <locus from="58v">(f. 58v)</locus>;</rubric>
+                        <rubric>Dominica IIII <locus from="59r">(f. 59r)</locus>;</rubric>
+                        <rubric>Dominica V <locus from="59r">(f. 59r)</locus>;</rubric>
+                        <rubric>Dominica VI <locus from="59r">(f. 59r)</locus>;</rubric>
+                        <rubric>Dominica VII <locus from="59v">(f. 59v)</locus>;</rubric>
+                        <rubric>Dominica VIII <locus from="59v">(f. 59v)</locus>;</rubric>
+                        <rubric>Dominica VIIII <locus from="59v">(f. 59v)</locus>;</rubric>
+                        <rubric>Dominica X <locus from="60r">(f. 60r)</locus>;</rubric>
+                        <rubric>Dominica XI <locus from="60r">(f. 60r)</locus>;</rubric>
+                        <rubric>Dominica XII <locus from="60r">(f. 60r)</locus>;</rubric>
+                        <rubric>[Dominica] XIII <locus from="60v">(f. 60v)</locus>;</rubric>
+                        <rubric>[Dominica] XIIII <locus from="60v">(f. 60v)</locus>;</rubric>
+                        <rubric>[Dominica] XV <locus from="60v">(f. 60v)</locus>;</rubric>
+                        <rubric>[Dominica] XVI <locus from="60v">(f. 60v)</locus>;</rubric>
+                        <rubric>[Dominica] XVII <locus from="61r">(f. 61r)</locus>;</rubric>
+                        <rubric>[Dominica] XVIII <locus from="61r">(f. 61r)</locus>;</rubric>
+                        <rubric>[Dominica] XIX <locus from="61r">(f. 61r)</locus>;</rubric>
+                        <rubric>[Dominica] XX <locus from="61r">(f. 61r)</locus>;</rubric>
+                        <rubric>Dominica XXI <locus from="61v">(f. 61v)</locus>;</rubric>
+                        <rubric>[Dominica] XXII <locus from="61v">(f. 61v)</locus>;</rubric>
+                        <rubric>[Dominica] XXIII <locus from="61v">(f. 61v)</locus>;</rubric>
+                        <rubric>[Dominica] XXIIII <locus from="62r">(f. 62r)</locus>;</rubric>
+                        <rubric>[Dominica] XXV <locus from="62r">(f. 62r)</locus></rubric>
+                     </msItem>
                   </msItem>
                   
-                  <msItem xml:id="manuscript_1_10">
-                     <rubric> In sabbato adventus Domini <locus from="7v">(f. 7v)</locus>; </rubric>
-                     <rubric>Dominica <locus from="8r">(f. 8r)</locus>; </rubric>
-                     <rubric>Sabbato ante secundam dominicam <locus from="8v">(f.
-                        8v)</locus>;</rubric>
-                     <rubric> Dominica secunda <locus from="9r">(f. 9r)</locus>; </rubric>
-                     <rubric>Sabbato ante <supplied>III</supplied> dominicam <locus from="9r">(f.
-                           9r)</locus>; </rubric>
-                     <rubric>Dominica III <locus from="9v">(f. 9v)</locus>;</rubric>
-                     <rubric>Feria quarta in ieiunio <locus from="9v">(f. 9v)</locus>;</rubric>
-                     <rubric>Feria VI <locus from="9v">(f. 9v)</locus>;</rubric>
-                     <rubric>Sabbato ante IIII dominicam <locus from="10r">(f.
-                        10r)</locus>;</rubric>
-                     <rubric>Dominica <supplied>IV</supplied>
-                        <locus from="10r">(f. 10r)</locus>;</rubric>
-                     <rubric>Privatis diebus per adventum <locus from="10v">(f.
-                        10v)</locus>;</rubric>
-                     <rubric>In vigilia Natalis <locus from="11v">(f. 11v)</locus>;</rubric>
-                     <rubric>In die Natalis Domini <locus from="12r">(f. 12r)</locus>;</rubric>
-                     <rubric><supplied>A natali Domini usque ad diem Epiphaniae</supplied>
-                        <locus from="13r">(f. 13r)</locus>;</rubric>
-                     <rubric>Per octavas usque ad Circumcisionem <locus from="14r">(f.
-                        14r)</locus>;</rubric>
-                     <rubric>In vigilia Circumcisionis <locus from="14r">(f. 14r)</locus>;</rubric>
-                     <rubric>In die <locus from="14v">(f. 14v)</locus>;</rubric>
-                     <rubric>In vigilia <locus from="14v">(...) Epyphaniae (f.
-                        14v)</locus>;</rubric>
-                     <rubric>In die <locus from="15r">(f. 15r)</locus>;</rubric>
-                     <rubric>Per octavas <locus from="16r">(f. 16r)</locus>;</rubric>
-                     <rubric>Dominica I post natale Domini <locus from="16v">(f.
-                        16v)</locus>;</rubric>
-                     <rubric>Dominica II <locus from="16v">(f. 16v)</locus>;</rubric>
-                     <rubric>Sabbato ante dominicam quae prima sequitur octavas Theophaniae <locus
-                           from="17r">(f. 17r)</locus>;</rubric>
-                     <rubric>Dominica <locus from="17r">(f. 17r)</locus>;</rubric>
-                     <rubric>Per omnes dominicas ab octava Theophaniae usque ad quadragesimam <locus
-                           from="20r">(f. 20r)</locus>;</rubric>
-                     <rubric>Ordo de privatis diebus <locus from="20v">(f. 20v)</locus>;</rubric>
-                     <rubric>Dominica II post octavas Theophaniae <locus from="21v">(f.
-                        21v)</locus>;</rubric>
-                     <rubric>Dominica III <locus from="21v">(f. 21v)</locus>;</rubric>
-                     <rubric>Dominica IV <locus from="22r">(f. 22r)</locus>;</rubric>
-                     <rubric>Dominica in LXX <locus from="22r">(f. 22r)</locus>;</rubric>
-                     <rubric>Dominica in LX <locus from="22r">(f. 22r)</locus>;</rubric>
-                     <rubric>Dominica in L <locus from="22r">(f. 22r)</locus>;</rubric>
-                     <rubric>Feria IIII in capite ieiunii <locus from="22v">(f.
-                        22v)</locus>;</rubric>
-                     <rubric>Benedictio cineris <locus from="23r">(f. 23r)</locus>;</rubric>
-                     <rubric>Feria V <locus from="24v">(f. 24v)</locus>;</rubric>
-                     <rubric>Feria VI <locus from="24v">(f. 24v)</locus>;</rubric>
-                     <rubric>Sabbato <locus from="25r">(f. 25r)</locus>;</rubric>
-                     <rubric>Dominica I in XL <locus from="25r">(f. 25r)</locus>;</rubric>
-                     <rubric>De privatis diebus in XL... Feria secunda <locus from="26r">(f.
-                           26r)</locus>;</rubric>
-                     <rubric>Feria tercia <locus from="27v">(f. 27v)</locus>;</rubric>
-                     <rubric>Feria V <locus from="28r">(f. 28r)</locus>;</rubric>
-                     <rubric>Feria VI <locus from="28v">(f. 28v)</locus>;</rubric>
-                     <rubric>Sabbato <locus from="28v">(f. 28v)</locus>;</rubric>
-                     <rubric>Dominica II in XL <locus from="29r">(f. 29r)</locus>;</rubric>
-                     <rubric>Feria II <locus from="29r">(f. 29r)</locus>;</rubric>
-                     <rubric>Feria III <locus from="29v">(f. 29v)</locus>;</rubric>
-                     <rubric>Feria IIII <locus from="30r">(f. 30r)</locus>;</rubric>
-                     <rubric>Feria quinta <locus from="30r">(f. 30r)</locus>;</rubric>
-                     <rubric>Feria VI <locus from="30v">(f. 30v)</locus>;</rubric>
-                     <rubric>Sabbato <locus from="30v">(f. 30v)</locus>;</rubric>
-                     <rubric>Dominica III in XL <locus from="31r">(f. 31r)</locus>;</rubric>
-                     <rubric>Feria secunda <locus from="31v">(f. 31v)</locus>;</rubric>
-                     <rubric>Feria tercia <locus from="31v">(f. 31v)</locus>;</rubric>
-                     <rubric>Feria IIII <locus from="32r">(f. 32r)</locus>;</rubric>
-                     <rubric>Feria V <locus from="32r">(f. 32r)</locus>;</rubric>
-                     <rubric>Feria VI <locus from="32v">(f. 32v)</locus>;</rubric>
-                     <rubric>Sabbato <locus from="32v">(f. 32v)</locus>;</rubric>
-                     <rubric>Dominica IIII <locus from="33r">(f. 33r)</locus>;</rubric>
-                     <rubric>Feria secunda <locus from="33v">(f. 33v)</locus>;</rubric>
-                     <rubric>Feria III <locus from="33v">(f. 33v)</locus>;</rubric>
-                     <rubric>Feria IIII <locus from="34r">(f. 34r)</locus>;</rubric>
-                     <rubric>Feria quinta <locus from="34r">(f. 34r)</locus>;</rubric>
-                     <rubric>Feria VI <locus from="34v">(f. 34v)</locus>;</rubric>
-                     <rubric>Sabbato <locus from="34v">(f. 34v)</locus>;</rubric>
-                     <rubric>Dominica V <locus from="35r">(f. 35r)</locus>;</rubric>
-                     <rubric>Ordo privatis diebus tenendus usque in vigiliam Paschae <locus
-                           from="36r">(f. 36r)</locus>;</rubric>
-                     <rubric>Feria II <locus from="37r">(f. 37r)</locus>;</rubric>
-                     <rubric>Feria III <locus from="37v">(f. 37v)</locus>;</rubric>
-                     <rubric>Feria IIII <locus from="37v">(f. 37v)</locus>;</rubric>
-                     <rubric>Feria VI <locus from="38r">(f. 38r)</locus>;</rubric>
-                     <rubric>Sabbato <locus from="38v">(f. 38v)</locus>;</rubric>
-                     <rubric>Dominica in palmis <locus from="39r">(f. 39r)</locus>;</rubric>
-                     <rubric>Benedictio super ramos palmarum <locus from="39r">(f.
-                        39r)</locus>;</rubric>
-                     <rubric>Feria II <locus from="41r">(f. 41r)</locus>;</rubric>
-                     <rubric>Feria III <locus from="41v">(f. 41v)</locus>;</rubric>
-                     <rubric>Feria IIII <locus from="41v">(f. 41v)</locus>;</rubric>
-                     <rubric>Feria V in cena Domini et feria VI <locus from="42r">(f.
-                        42r)</locus>;</rubric>
-                     <rubric>In vigilia Paschae <locus from="42v">(f. 42v)</locus>;</rubric>
-                     <rubric>In die sancto Paschae <locus from="43r">(f. 43r)</locus>;</rubric>
-                     <rubric>Per octavas <locus from="43v">(f. 43v)</locus>;</rubric>
-                     <rubric>Feria II <locus from="45r">(f. 45r)</locus>;</rubric>
-                     <rubric>Feria III <locus from="45r">(f. 45r)</locus>;</rubric>
-                     <rubric>Feria IIII <locus from="45v">(f. 45v)</locus>;</rubric>
-                     <rubric>Feria quinta <locus from="45v">(f. 45v)</locus>;</rubric>
-                     <rubric>Feria VI <locus from="45v">(f. 45v)</locus>;</rubric>
-                     <rubric>Sabbato <locus from="46r">(f. 46r)</locus>;</rubric>
-                     <rubric>Dominica in octava <locus from="46r">(f. 46r)</locus>;</rubric>
-                     <rubric>Ordo de privatis diebus ab octava Paschae usque ad Rogationes <locus
-                           from="46v">(f. 46v)</locus>;</rubric>
-                     <rubric>Sabbato post octavas Paschae <locus from="48r">(f.
-                        48r)</locus>;</rubric>
-                     <rubric>Dominica I post octavas Paschae <locus from="48v">(f.
-                        48v)</locus>;</rubric>
-                     <rubric>Sabbato ante secundam dominicam <locus from="49r">(f.
-                        49r)</locus>;</rubric>
-                     <rubric>Dominica II post octavas Paschae <locus from="49v">(f.
-                        49v)</locus>;</rubric>
-                     <rubric>Sabbato ante III dominicam <locus from="50r">(f. 50r)</locus>;</rubric>
-                     <rubric>Dominica III <locus from="50r">(f. 50r)</locus>;</rubric>
-                     <rubric>Sabbato ante quartam dominicam <locus from="50v">(f.
-                        50v)</locus>;</rubric>
-                     <rubric>Dominica IIII <locus from="80v">(f. 80v)</locus>;</rubric>
-                     <rubric>Per tres dies Rogationum <locus from="51r">(f. 51r)</locus>;</rubric>
-                     <rubric>In vigilia Ascensionis <locus from="51v">(f. 51v)</locus>;</rubric>
-                     <rubric>Feria IIII <locus from="52r">(f. 52r)</locus>;</rubric>
-                     <rubric>In die Ascensionis Domini <locus from="52r">(f. 52r)</locus>;</rubric>
-                     <rubric>Dominica infra octavas Ascensionis <locus from="53r">(f.
-                        53r)</locus>;</rubric>
-                     <rubric>Privatis diebus per octavas usque ad Pentecosten <locus from="53v">(f.
-                           53v)</locus>;</rubric>
-                     <rubric>In vigilia Pentecosten <locus from="54r">(f. 54r)</locus>;</rubric>
-                     <rubric>In die sancto Pentecosten <locus from="54r">(f. 54r)</locus>;</rubric>
-                     <rubric>Ordo per octavas <locus from="55r">(f. 55r)</locus>;</rubric>
-                     <rubric>Feria secunda <locus from="56r">(f. 56r)</locus>;</rubric>
-                     <rubric>Feria III <locus from="56r">(f. 56r)</locus>;</rubric>
-                     <rubric>Feria IIII <locus from="56v">(f. 56v)</locus>;</rubric>
-                     <rubric>Feria quinta <locus from="56v">(f. 56v)</locus>;</rubric>
-                     <rubric>Feria VI <locus from="56v">(f. 56v)</locus>;</rubric>
-                     <rubric>Sabbato <locus from="56v">(f. 56v)</locus>;</rubric>
-                     <rubric>Dominica I post Pentecosten <locus from="57r">(f.
-                        57r)</locus>;</rubric>
-                     <rubric>Dominica secunda <locus from="58v">(f. 58v)</locus>;</rubric>
-                     <rubric>Dominica III <locus from="58v">(f. 58v)</locus>;</rubric>
-                     <rubric>Dominica IIII <locus from="59r">(f. 59r)</locus>;</rubric>
-                     <rubric>Dominica V <locus from="59r">(f. 59r)</locus>;</rubric>
-                     <rubric>Dominica VI <locus from="59r">(f. 59r)</locus>;</rubric>
-                     <rubric>Dominica VII <locus from="59v">(f. 59v)</locus>;</rubric>
-                     <rubric>Dominica VIII <locus from="59v">(f. 59v)</locus>;</rubric>
-                     <rubric>Dominica VIIII <locus from="59v">(f. 59v)</locus>;</rubric>
-                     <rubric>Dominica X <locus from="60r">(f. 60r)</locus>;</rubric>
-                     <rubric>Dominica XI <locus from="60r">(f. 60r)</locus>;</rubric>
-                     <rubric>Dominica XII <locus from="60r">(f. 60r)</locus>;</rubric>
-                     <rubric>[Dominica] XIII <locus from="60v">(f. 60v)</locus>;</rubric>
-                     <rubric>[Dominica] XIIII <locus from="60v">(f. 60v)</locus>;</rubric>
-                     <rubric>[Dominica] XV <locus from="60v">(f. 60v)</locus>;</rubric>
-                     <rubric>[Dominica] XVI <locus from="60v">(f. 60v)</locus>;</rubric>
-                     <rubric>[Dominica] XVII <locus from="61r">(f. 61r)</locus>;</rubric>
-                     <rubric>[Dominica] XVIII <locus from="61r">(f. 61r)</locus>;</rubric>
-                     <rubric>[Dominica] XIX <locus from="61r">(f. 61r)</locus>;</rubric>
-                     <rubric>[Dominica] XX <locus from="61r">(f. 61r)</locus>;</rubric>
-                     <rubric>Dominica XXI <locus from="61v">(f. 61v)</locus>;</rubric>
-                     <rubric>[Dominica] XXII <locus from="61v">(f. 61v)</locus>;</rubric>
-                     <rubric>[Dominica] XXIII <locus from="61v">(f. 61v)</locus>;</rubric>
-                     <rubric>[Dominica] XXIIII <locus from="62r">(f. 62r)</locus>;</rubric>
-                     <rubric>[Dominica] XXV <locus from="62r">(f. 62r)</locus></rubric>
-                  </msItem>
                   <!-- Alternatively (and perhaps preferably), it could be encoded in the <additions> element -->
                   <msItem xml:id="manuscript_1_7" n="6">
                      <locus from="154v" to="154v">f. 154v</locus>
